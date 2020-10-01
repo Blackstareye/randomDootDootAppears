@@ -8,6 +8,7 @@ For example: You can include it into your OBS using "Browser Source".
 ## Configurations
 
 You can set the "random interval" with the variables displayed in the picture:
+
 ![Config](Config.png)
 
 ### Constants
