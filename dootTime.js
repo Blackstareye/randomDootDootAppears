@@ -11,10 +11,11 @@ const TIME_TYPES = {
 
 
  // Configuration
-TIME_MIN_C = 30
-TIME_MIN_TYPE =  TIME_TYPES.MINUTE
-TIME_MAX_C = 1 
-TIME_MAX_TYPE =  TIME_TYPES.HOUR
+TIME_MIN_C = 5
+TIME_MIN_TYPE =  TIME_TYPES.SECOND
+TIME_MAX_C = 7 
+TIME_MAX_TYPE =  TIME_TYPES.SECOND
+
 _VOLUME = 0.5
 
 
@@ -61,19 +62,10 @@ function convert_date_to_miliseconds(time_value,type_of_param_one = TIME_TYPES.H
             number = number * 1000 * 60 * 60;
             break;
         default:
-          console.log("cant convert timestamp " + time_value + "given with " + type_of_param_one)
+          console.debug("cant convert timestamp " + time_value + "given with " + type_of_param_one)
       }
     return number;
 }
-
-function getTimeAtHour(hour) {
-    var t = new Date();
-    t.setHours(hour);
-    t.setMinutes(0);
-    t.setSeconds(0);
-    t.setMilliseconds(0);
-    return t;
-  }
 
 
 // setting the time interval 
