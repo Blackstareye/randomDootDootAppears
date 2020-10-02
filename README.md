@@ -1,7 +1,7 @@
 # Doot Doot Random Auto Player
 
 This "project" is intended as a funny random little spook.
-Within a defined random interval, the video will start and you will get spooked. It uses Greenscreen, so you can include it, whereever you want.
+Within a defined random interval, the video will start and you will get spooked.
 
 For example: You can include it into your OBS using "Browser Source".
 
