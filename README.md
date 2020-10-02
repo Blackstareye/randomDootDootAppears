@@ -27,3 +27,9 @@ You can set the "random interval" with the variables displayed in the picture:
 
 Used this Video from Musical Ghost:
 [https://www.youtube.com/watch?v=St7X_TcGiS8](https://www.youtube.com/watch?v=St7X_TcGiS8)
+
+If you also want to use the media, you need to unzip the file.
+But the zip file is password protected. Contact me to get the password, or just use another DootDoot.mp4 file and change the src-value with your media file name:
+
+![Media](Media.png)
+
